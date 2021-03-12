@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         EditText edtFirstName = findViewById(R.id.edtTxtFirstName);
         EditText edtLastName = findViewById(R.id.edtTxtLastName);
         EditText edtEmail = findViewById(R.id.edtTxtEmail);
-
+        //Add Form
         txtFirstName.setText("First Name : " + edtFirstName.getText().toString());
         txtLastName.setText("Last Name : " + edtLastName.getText().toString());
         txtEmail.setText("Email : " + edtEmail.getText().toString());
